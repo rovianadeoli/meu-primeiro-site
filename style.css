@@ -1,0 +1,81 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    color:blueviolet;
+    line-height: 25px;
+}
+
+h2, h3 {
+    color:cornflowerblue;
+}
+
+h2 {
+    line-height: 25px;
+}
+
+h3 {
+    line-height: 0px;
+    font-style: italic;
+}
+
+h4 {
+    color:darkgray;
+    line-height: 0px;
+}
+
+img {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+button {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: darkorange;
+    color:white;
+    border: 0px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+button:active {
+    background-color: brown;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+body{
+    background-color: violet;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+}
+
+.card .right-side {
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.card .left-side {
+    width: 50%;
+    height: 100%;
+}
